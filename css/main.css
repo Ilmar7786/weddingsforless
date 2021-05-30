@@ -1,0 +1,268 @@
+@font-face {
+    font-family: "MullerBold";
+    src: url("../fonts/MullerBold.ttf");
+}
+
+@font-face {
+    font-family: "MullerRegular";
+    src: url("../fonts/MullerRegular.ttf");
+}
+
+@font-face {
+    font-family: "YesevaOne";
+    src: url("../fonts/YesevaOneRegular.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+#header-container, #main-container, #footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #FDFDFD;
+    box-shadow: 0 4px 20px rgba(189, 141, 153, 0.2);
+    padding: 15px 0;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#menu {
+    display: inline-block;
+    margin-left: 220px;
+    vertical-align: middle;
+}
+
+.menu-item {
+    text-decoration: none;
+    font-family: "MullerRegular", sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #BD8D99;
+    margin: 0 25px;
+}
+
+#main {
+    padding: 80px 0;
+}
+
+#main h1 {
+    margin: 0 auto 50px auto;
+    text-align: center;
+    font-family: "YesevaOne", sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    color: #4B0012;
+    max-width: 615px;
+}
+
+
+.slick-slider{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.slick-slide{
+    margin : 0 15px;
+    text-align: center;
+}
+
+.slick-slide img{
+    max-width: 100%;
+}
+
+.slick-prev:before {
+    content: url("../images/arrow-left.png");
+}
+
+.slick-next:before{
+    content: url("../images/arrow-right.png");
+}
+
+.slick-prev, .slick-next{
+    top: 100px;
+}
+
+
+#services-container {
+    margin: 120px 0;
+}
+
+h2 {
+    font-family: "YesevaOne", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    color: #4B0012;
+    margin: 0;
+}
+
+#services {
+    display: inline-block;
+    margin-top: 45px;
+    margin-right: 90px;
+}
+
+.ui-widget.ui-widget-content {
+    border: none;
+}
+
+.ui-widget-header {
+    background: transparent;
+    border: none;
+}
+
+.ui-tabs .ui-tabs-panel{
+    background: #FCF2F2;
+}
+
+.ui-tabs .ui-tabs-nav{
+    padding: 0;
+}
+
+.ui-tabs .ui-tabs-nav li{
+    margin-right: 10px;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited{
+    color: #4B0012;
+}
+a:-webkit-any-link:focus{
+    outline: none;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: 20px 30px;
+    text-align: center;
+}
+.ui-state-default, .ui-state-default, .ui-widget-header .ui-state-default{
+    border-radius: 10px 10px 0px 0px;
+    background: transparent;
+    border: 1px solid #FCF2F2;
+}
+
+.ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+    background: #FCF2F2;
+    border: none;
+    text-align: center;
+    color: #4B0012;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.ui-tabs-anchor{
+    font-family: "MullerRegular", sans-serif;
+    font-size: 16px;
+}
+.ui-tabs-panel{
+    width: 730px;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.ui-tabs-panel ul{
+    padding: 0 0 0 15px;
+}
+.ui-tabs-panel ul li{
+    margin: 12px 0;
+    font-family: "MullerRegular", sans-serif;
+    font-size: 16px;
+}
+
+.ui-tabs .ui-tabs-panel{
+    padding: 40px 0 20px 30px;
+}
+
+.tab-title{
+    font-family: "MullerBold", sans-serif;
+    font-size: 18px;
+}
+
+.ui-accordion-header-icon{
+   background-image: url("../images/Vector.png");
+    width: 35px;
+    height: 35px;
+}
+
+.ui-state-hover .ui-icon{
+    background-image: url("../images/Vector.png");
+    top: 30px;
+    right: 35px;
+}
+.ui-state-focus .ui-icon{
+    background-image: url("../images/Vector.png");
+    top: 30px;
+    right: 35px;
+}
+.ui-state-active .ui-icon{
+    position: absolute;
+    background-image: url("../images/Vector.png");
+    top: 30px;
+    right: 35px;
+}
+
+.ui-icon-triangle-1-s{
+    background-position: center;
+}
+
+.ui-icon-triangle-1-e{
+background-position: center;
+    position: absolute;
+    top: 30px;
+    right: 35px;
+}
+
+#services-image {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#faq h2{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.ui-accordion .ui-accordion-header{
+    padding: 30px 0 30px 25px;
+}
+.ui-state-default, .ui-state-default {
+    background: #FCF2F2;
+    border-radius: 10px;
+}
+
+:focus{
+    outline: none;
+}
+
+#accordion h3{
+    font-family: "MullerBold", sans-serif;
+    font-size: 18px;
+    color: #4B0012;
+    margin-top: 15px;
+    position: relative;
+}
+
+.ui-accordion .ui-accordion-content{
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #FCF4F4;
+    padding: 15px 0;
+}
+
+footer span {
+    font-family: "MullerRegular", sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgba(189, 141, 153, 0.5);
+    margin-left: 420px;
+}
